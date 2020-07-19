@@ -50,6 +50,26 @@ body{
   margin: 0 auto;
   padding: 0 15px;
 }
+.page-section{
+  margin: 200px 0;
+}
+.title{
+  font-size: 96px;
+  line-height: 128px;
+  color: #E2AB3F;
+  font-family: 'balqis';
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+.title span{
+  line-height: 28px;
+  font-size: 24px;
+  font-family: 'RobotoCondensed-LightItalic';
+  color: #000;
+  display: block;
+  margin-top: -30px;
+  margin-left: 185px;
+}
 .header{
   background-image: url(../images/header-bg.jpg);
   height: 100vh;
