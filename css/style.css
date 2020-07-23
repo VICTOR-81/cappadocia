@@ -123,4 +123,40 @@ left: 0;
   margin-top: -66px;
   margin-right: 85px;
 }
-
+.fairy-tail__slider{
+  width: 50%;
+}
+.slick-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.slick-prev{
+  left: 0;
+}
+.slick-next{
+  right: 0;
+}
+.fairy-tail__inner{
+  position: relative;
+}
+.fairy-tail__container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.fairy-tail__body{
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+}
