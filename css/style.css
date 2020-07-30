@@ -244,3 +244,61 @@ left: 0;
 .hotel__gallery a{
   margin-top: 50px;
 }
+.price__inner{
+  display: flex;
+
+}
+.price__on-title,
+.price__off-title{
+  margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'RobotoCondensed-Regular';
+}
+.price__on{
+  margin-right: 70px;
+  width: 530px;
+}
+.price__list-item{
+  margin-bottom: 20px;
+}
+.price{
+  background-image: url(../images/price-bg.png);
+  background-repeat: no-repeat;
+  background-position: center right 20%;
+}
+.contacts__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__content{
+  text-align: center;
+}
+.contacts__date,
+.contacts__price{
+  font-family: 'balqis';
+  color: #E2AB3F;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 300;
+}
+.contacts__date{
+  margin-bottom: 20px;
+}
+.contacts__price{
+  margin-left: 120px;
+}
+.contacts__date span,
+.contacts__price span{
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'RobotoCondensed-Light';
+  color: #000;
+  margin-top: -10px;
+  margin-left: 205px;
+}
+.contacts__form{
+  max-width: 383px;
+  margin: 0 auto;
+}
